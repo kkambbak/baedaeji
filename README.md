@@ -1,5 +1,5 @@
 # baedaeji
-##배송 대행지 비교 플랫폼
+## 배송 대행지 비교 플랫폼
 --------
 ![배대지](https://user-images.githubusercontent.com/71304637/139587837-88c151a7-6ab7-47e6-a194-1d2ff1915166.PNG)
 --------
