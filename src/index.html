@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+      .nav {
+        height: 70px;
+        border-bottom: 1px solid black;
+        display: flex;
+        align-items: center;
+      }
+
+      .nav-right-items {
+        display: flex;
+        margin-left: auto;
+      }
+
+      .nav-item2 {
+        display: flex;
+        margin-left: 30px;
+        border-radius: .3rem;
+        line-height: 2;
+        color: #007bff;
+        background-color: transparent;
+        border-color: #007bff;
+      }
+
+      .nav-item {
+        margin-left: 30px;
+      }
+
+      .title{
+        text-align: center;
+        font-size: 3.5rem;
+        font-weight: bold;
+      }
+
+      .main{
+        width: 800px;
+        margin: 0 auto;
+        margin-top: 60px;
+      }
+
+      .subtitle{
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 300;
+      }
+
+      .objects{
+        display: flex;
+      }
+
+      .object{
+
+        width: 300px;
+        height: 300px;
+        border: 1px solid black;
+        margin: 20px;
+        border-radius: 4px;
+      }
+      .object-title{
+        margin: 20px;
+        font-size: 1.7rem;
+        background: rbga(0,0,0,.03);
+        text-align: center;
+        height: 53px;
+        line-height: 53px;
+        border-bottom: 1px solid black;
+      }
+      .object-detail{
+        font-size: 1.2rem;
+        padding: 20px;
+      
+      }
+
+      .object-button{
+        padding: .5rem 1rem;
+        font-size: 1.25rem;
+        line-height: 1.5;
+        border-radius: .3rem;
+        color: #007bff;
+        background-color: transparent;
+        border-color: #007bff;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <div class="nav-right-items">
+        <div class="nav-item">배송대행이란?</div>
+        <div class="nav-item">가격비교</div>
+        <button class="nav-item2">로그인</button>
+        <button class="nav-item2">회원가입</button>
+      </div>
+    </div>
+    <div class="main">
+      <div class="title">
+        배송대행지 비교 플랫폼
+      </div>
+      <div class="subtitle">
+        여러 수많은 업체들이 운영중인 배송대행 서비스를 종합하여 비교,분석하고 사용자가 원하는 배송대행지를 이용할 수 있게끔 하는 플랫폼 및 앱 개발
+      <div>
+    </div>
+    <div class="objects">
+      <div class="object">
+        <div class="object-title">
+          배송대행이란?
+        </div>
+        <div class="object-detail">
+          해외구매시 우리나라로 직배송이 안될경우
+          대신 배송해주는 것을 말합니다
+        </div>
+        <button class="object-button">
+          배송대행이란?
+        </button>
+      </div>
+
+      <div class="object">
+        <div class="object-title">
+          가격비교
+        </div>
+        <div class="object-detail">
+          몰테일, 투패스츠, 아이포터 등 
+          배대지 가격 비교
+        </div>
+        <button class="object-button">
+          가격비교 하러가기
+        </button>
+      </div>
+      <div class="object">
+        <div class="object-title">
+          준비중
+        </div>
+        <button class="object-button">
+          Go
+        </button>
+      </div>
+
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
